@@ -65,6 +65,11 @@ header nav a:hover{
     align-items: flex-start;
 }
 
+.filme-principal .saul-logo{
+    background-image: url(../imgs/saul-logo.png);
+    background-size: 100% 100%;    
+    width: 650px;
+}
 .filme-principal .descricao {
     margin-top: 3%;
     margin-left: 3%;
@@ -75,13 +80,8 @@ header nav a:hover{
     width: 50%;
 }
 
-.titulos .titulo {
-    color: yellow;
-}
-.titulos .titulo1 {
-    color: var(--vermelho);
-    font-size: 300%;
-    
+.container .saul-logo{
+    height: 350px;
 }
 
 .botao {    
