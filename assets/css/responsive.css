@@ -4,23 +4,25 @@
         flex-direction: column;
     }
     body .bg-img{
-        background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../imgs/saul-banner.jpg);
         height: 800px;
         background-size: cover;
         background-position: center;
     }
-    .botao {
+    .bg-img .filme-principal .botao {
         margin-top: 10px;
+        margin-left: 20px;
         width: 300px;
+        height: 50px;
     }
     .bg-img .filme-principal .saul-logo{
-        margin-top: 50px;
-        width: 400px;
-        height: 200px;
+        margin-top: 30%;
+        width: 300px;
+        height: 150px;
     }
     .bg-img .filme-principal .descricao{
-        width: 70%;
-        margin-left: 30px;
+        width: 80%;
+        margin-left: 20px;
         margin-top: 5%;
+        font-size: 20px;
     }
 }
