@@ -52,7 +52,7 @@ header nav a:hover{
     background-image:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(../imgs/saul-banner.jpg);
     height: 800px;
     background-size: cover;
-    background-position: center;
+    
 }
 /*Filme Principal*/
 
