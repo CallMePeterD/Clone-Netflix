@@ -141,7 +141,16 @@ h2{
 }
 
 .row__posterLarge{
+    width: 100%;
+    object-fit:contain;
+    max-height: 180px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    border-radius: 5px;
     max-height: 450px;
+}
+.row__posterLarge:hover{
+    transform: scale(1.09);
 }
 
 .row {
